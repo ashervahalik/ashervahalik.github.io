@@ -1,1 +1,0 @@
-# ashervahalik.github.io
