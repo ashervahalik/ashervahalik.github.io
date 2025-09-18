@@ -3,12 +3,6 @@ html {
 	background-color: #222;
 	color: white;
 }
-#main {
-	margin-left: 10vw;
-	margin-top: 10vh;
-	width: 40vw;
-	line-height: 1.5;
-}
 h1 {
 	font-weight: normal;
 }
@@ -16,11 +10,43 @@ a {
 	text-decoration: none;
 	color: #28f;
 }
+#main {
+	line-height: 1.5;
+}
 footer {
-	margin-top: 30vh;
 	background-color: black;
 	color: lightgray;
-	height: 5vw;
-	padding-left: 7vw;
-	padding: 3vw;
+}
+
+/* Desktop */
+@media (min-aspect-ratio: 1/1) {
+	#main {
+		margin-left: 10vw;
+		margin-top: 10vh;
+		width: 40vw;
+	}
+	footer {
+		margin-top: 30vh;
+		height: 5vw;
+		padding-left: 7vw;
+		padding: 3vw;
+	}
+}
+
+/* Mobile */
+@media (max-aspect-ratio: 1/1) {
+	html {
+		font-size: 20pt;
+	}
+	#main {
+		margin-left: 10vw;
+		margin-top: 8vh;
+		width: 80vw;
+	}
+	footer {
+		margin-top: 30vh;
+		height: 10vw;
+		padding-left: 10vw;
+		padding: 4vh;
+	}
 }
