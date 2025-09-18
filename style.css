@@ -26,7 +26,7 @@ footer {
 		width: 40vw;
 	}
 	footer {
-		margin-top: 30vh;
+		margin-top: 20vh;
 		height: 5vw;
 		padding-left: 7vw;
 		padding: 3vw;
@@ -36,7 +36,7 @@ footer {
 /* Mobile */
 @media (max-aspect-ratio: 1/1) {
 	html {
-		font-size: 20pt;
+		font-size: 25pt;
 	}
 	#main {
 		margin-left: 10vw;
@@ -44,9 +44,10 @@ footer {
 		width: 80vw;
 	}
 	footer {
-		margin-top: 30vh;
+		margin-top: 20vh;
 		height: 10vw;
 		padding-left: 10vw;
 		padding: 4vh;
+		padding-bottom: 7vh;
 	}
 }
